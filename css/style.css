@@ -102,6 +102,12 @@ body {
     font-size: 14px;
     font-weight: normal;
     line-height: 17px;
+    transition: ease 0.1s;
+}
+
+.menu__link:hover {
+    font-weight: 600;
+    transition: ease 0.1s;
 }
 
 
@@ -180,7 +186,7 @@ body {
 }
 
 .offer__text {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 24px;
     line-height: 150%;
     max-width: 540px;
